@@ -16,7 +16,7 @@ Copy off the Public IP Address and the cloud_user credentials; the login and tem
 #### Setting Up The Master Nodes
 
 The URL for the course assets in GitHub are at:
-https://github.com/linuxacademy/content-kubernetes-security
+https://github.com/ACloudGuru-Resources/content-kubernetes-security
 
 Access your servers through the SSH utility on your client or our terminal session provided through linuxacademy.com.
 
@@ -28,7 +28,7 @@ Use the temporary password for first login, and when it prompts you to change th
 
 Run a wget command to pull down the script that will pull the others.
 
-` $ wget https://raw.github.com/linuxacademy/content-kubernetes-security/master/wget_shell_files.sh `
+` $ wget https://raw.github.com/ACloudGuru-Resources/content-kubernetes-security/master/wget_shell_files.sh `
 
 Change the permissions to add execute permission to the shell script file.
 
@@ -42,7 +42,7 @@ Execute the shell script from your current working directory.
 
 Repeat the wget of the main shell script on Node1 and Node2 servers.
 
-` $ wget https://raw.github.com/linuxacademy/content-kubernetes-security/master/wget_shell_files.sh `
+` $ wget https://raw.github.com/ACloudGuru-Resources/content-kubernetes-security/master/wget_shell_files.sh `
 
 Change the permissions to add execute permission to the shell script file.
 
