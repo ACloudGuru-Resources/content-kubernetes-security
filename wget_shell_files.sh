@@ -10,3 +10,4 @@ wget https://raw.github.com/ACloudGuru-Resources/content-kubernetes-security/mas
 wget https://raw.github.com/ACloudGuru-Resources/content-kubernetes-security/master/yum_install_kube.sh
 wget https://raw.github.com/ACloudGuru-Resources/content-kubernetes-security/master/ks-setup-step1.sh
 wget https://raw.github.com/ACloudGuru-Resources/content-kubernetes-security/master/ks-setup-step2.sh
+wget https://raw.github.com/ACloudGuru-Resources/content-kubernetes-security/master/kube-flannel.sh
