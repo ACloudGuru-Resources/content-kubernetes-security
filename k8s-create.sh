@@ -10,4 +10,4 @@ echo "================="
 ssh-keygen -q -f ./.ssh/id_rsa -N ''
 echo "CREATING CLUSTER"
 echo "================="
-kops create cluster --master-size=t2.medium --zones=us-east-1c --name=$KOPS_CLUSTER_NAME
+kops create cluster --master-size=t2.medium --zones=us-east-1c --etcd-storage-type io1 --name=$KOPS_CLUSTER_NAME
