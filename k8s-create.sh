@@ -10,4 +10,4 @@ echo "================="
 ssh-keygen -q -f ./.ssh/id_rsa -N ''
 echo "CREATING CLUSTER"
 echo "================="
-kops create cluster --master-size=t2.medium --zones=us-east-1c --etcd-storage-type io1 --name=$KOPS_CLUSTER_NAME
+kops create cluster --master-size=t2.medium --zones=us-east-1c --etcd-storage-type io1 --image 099720109477/ubuntu/images/hvm-ssd/ubuntu-focal-20.04-amd64-server-20230714 --name=$KOPS_CLUSTER_NAME
